@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.ItemUsuarioFacebookX {
+	padding: 5px;
+	margin: 1px;
+}
+div.ItemUsuarioFacebookX div.ContenedorImagenUsuarioFb {
+	height: 50px;
+	width: 50px;
+	margin-right: 5px;
+	float: left;
+}
+div.ItemUsuarioFacebookX div.ContenedorInformacionUsuarioFb {
+	height: 50px;
+	float: left;
+}
+div.ItemUsuarioFacebookX div.ContenedorInformacionUsuarioFb p.NombreUsuarioFacebook {
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+div.ItemUsuarioFacebookX div.ContenedorInformacionUsuarioFb p.EstadoMembresia {
+	margin: 2px;
+	font-size: 16px;
+}
+.IconoMembresia {
+	padding: 0 0 0 18px !important;
+	background: url(Imagenes/Orion16.png) no-repeat center left;
+}
+div.ClearHelper {
+	clear: both;
+}
+.ItemUsuarioFacebook {
+	padding: 3px;
+}
+.ItemUsuarioFacebook .NombreUsuarioFacebook {
+	margin: 0px;
+	padding: 0 0 0 18px;
+}

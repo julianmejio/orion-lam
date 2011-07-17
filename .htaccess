@@ -1,0 +1,17 @@
+order allow,deny
+Allow From All
+
+
+
+# Configuración Rewrite
+# Options +SymLinksIfOwnerMatch
+RewriteEngine on
+RewriteBase /orionapp
+
+# AJAX
+# Peticiones JSON
+RewriteRule (.+)\.json(\?.+)? /orionapp/API/Ajax/$1.php$2
+
+# LÁMINAS
+# Imagenes de láminas
+RewriteRule ^lamina/([0-9a-f]{40})\.jpg$ /orionapp/Imagenes/Laminas/imgmap.php?m=$1

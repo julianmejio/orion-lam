@@ -1,0 +1,9 @@
+div#ContenedorLamina {
+	float: left;
+	width: 300px;
+}
+
+div#EditorLamina {
+	float: left;
+	width: 400px;
+}

@@ -1,0 +1,28 @@
+table.Formulario {
+	width: 100%;
+}
+
+table.Formulario tr th {
+	text-align: left;
+	vertical-align: top;
+}
+
+table.Formulario tr td input,table.Formulario tr td textarea,table.Formulario tr td select
+	{
+	width: 100%;
+}
+
+table.Formulario tr td input[type="submit"],table.Formulario tr td input[type="checkbox"],table.Formulario tr td input[type="button"]
+	{
+	width: auto;
+}
+
+table.Formulario tr td div.ControlSlider div.Numero {
+	float: left;
+	width: 5%;
+}
+
+table.Formulario tr td div.ControlSlider div.Slider {
+	float: right;
+	width: 94%;
+}

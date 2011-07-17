@@ -1,0 +1,33 @@
+.WidgetAlbum .MenuAlbum {
+	float: left;
+	width: 19%;
+	margin-right: 1%;
+}
+
+.WidgetAlbum .ContenidoAlbum {
+	float: right;
+	width: 78%;
+	background-color: #FFF;
+	padding: 1%;
+}
+
+.WidgetAlbum .MenuAlbum .Menu h3 a.LaminaNueva {
+	background-attachment: scroll;
+	background-image: url(../../Imagenes/Iconos/LaminaNueva_24x.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.InformacionCantidadLamina {
+	width: 29px;
+	position: relative;
+	left: 164px;
+	bottom: 319px;
+	font-size: 0.8em;
+	padding: 2px 3px;
+	text-align: right;
+	background: #666;
+	color: #EEE;
+	font-weight: bold;
+	height: 17px;
+}

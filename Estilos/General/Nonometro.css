@@ -1,0 +1,57 @@
+div.Contenedor-nonometro {
+	margin: 3px 0;
+	background-color: #069;
+	color: #FFF;
+	font-size: 0.8em;
+	cursor: default;
+}
+
+div.Contenedor-nonometro p.Titulo {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: bold;
+	float: left;
+	width: 30%;
+	padding: 0 0 0 1%;
+	margin: 3px 0;
+}
+
+div.Contenedor-nonometro div.Contenedor-barra {
+	font-size: 0.9 em;
+	width: 57%;
+	float: left;
+	margin: 3px 1%;
+	background-color: #CCC;
+	padding: 0;
+}
+
+div.Contenedor-nonometro div.Contenedor-barra div.Barra-progreso {
+	font-size: 0.9em;
+	background-color: #69C;
+}
+
+div.Contenedor-nonometro p.Nivel {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: bold;
+	float: right;
+	width: 10%;
+	padding: 3px 0;
+	margin: 0;
+	text-align: center;
+	background-color: #2885F7
+}
+
+span.Nivel[rel=nonometro] {
+	font-size: 0.8em;
+	background-color: #069;
+	padding: 0.1em 1em;
+	margin: 0 0.5em;
+	font-weight: bold;
+	color: #FFF;
+	cursor: default;
+}
+
+div.Contenedor-nonometro div.ClearHelper {
+	clear: both;
+}

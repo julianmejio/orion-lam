@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+div.IntercambioLaminas {
+	margin: 0 30%;
+}
+div.IntercambioLaminas div.LaminasInteresado {
+	width: 50%;
+	float: left;
+}
+div.IntercambioLaminas div.LaminasInteresante {
+	width: 50%;
+	float: right;
+}
+div.IntercambioLaminas div ul {
+	margin: 0;
+	padding: 0;
+}
+div.IntercambioLaminas div ul li {
+	list-style: none;
+	display: block;
+	border: #CCC 1px solid;
+	background-color: #EEE;
+	margin: 3px;
+	padding: 2px;
+}
+div.IntercambioLaminas div.LaminasInteresante ul li {
+	text-align: right;
+}
+div.IntercambioLaminas div ul li.ui-selecting {
+	background-color: #999;
+}
+div.IntercambioLaminas div ul li.ui-selected {
+	border-color: #36C;
+	background-color: #69C;
+	color: #FFF;
+}
+div.IntercambioLaminas div.IntercambioAcciones {
+	margin: 5px;
+}
+div.IntercambioLaminas div.IntercambioAcciones {
+	text-align: center;
+}
+</style>
+<link href="../API/Jqueryui/css/orion/jquery-ui-1.8.9.custom.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../API/Jquery/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="../API/Jqueryui/js/jquery-ui-1.8.9.custom.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".IntercambioLaminas div ul li").addClass("ui-corner-all");
+	$(".IntercambioLaminas div ul").selectable();
+	$("#Exec").button();
+});
+</script>
+</head>
+
+<body>
+<div class="IntercambioLaminas">
+  <div class="LaminasInteresado">
+    <ul>
+      <li>Lorem</li>
+      <li>Ipsum</li>
+      <li>Dolor</li>
+      <li>Sit</li>
+      <li>Amen</li>
+    </ul>
+  </div>
+  <div class="LaminasInteresante">
+    <ul>
+      <li>Lorem</li>
+      <li>Ipsum</li>
+      <li>Dolor</li>
+      <li>Sit</li>
+      <li>Amen</li>
+    </ul>
+  </div>
+  <div style="clear:both"></div>
+  <div class="IntercambioAcciones">
+    <input type="button" name="Exec" id="Exec" value="Exec" />
+  </div>
+</div>
+</body>
+</html>

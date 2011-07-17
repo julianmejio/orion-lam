@@ -1,0 +1,40 @@
+div.ContenidoActa {
+	margin: 0.5em;
+	padding: 1em;
+	font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	background-color: #FFF;
+}
+
+div.ContenidoActa h1 {
+	font-size: 1.5em;
+}
+
+div.ContenidoActa p.GrupoReunido {
+	font-size: 1.1em;
+}
+
+div.ContenidoActa h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+div.ContenidoActa h3 {
+	font-size: 1.1em;
+}
+
+div#ContenedorActividadesRealizadas div.ItemUsuarioFacebookX {
+	display: inline;
+}
+
+div#ContenedorAsistencia ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

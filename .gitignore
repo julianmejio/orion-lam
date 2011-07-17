@@ -1,0 +1,6 @@
+/API/Ajax/Administracion/cjob/participantes.dat
+/API/Orion/class.Config.inc
+/Imagenes/Laminas/*.jpg
+!/Imagenes/Laminas/Orion.jpg
+/Sistema/Datos/ConexionesDb/*
+/Sistema/Datos/Geoip/*

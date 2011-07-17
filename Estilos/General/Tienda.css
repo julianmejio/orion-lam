@@ -1,0 +1,48 @@
+#ContenedorPanel #Panel #ControlesPanel #ContenidoPanel #ContenedorItems {
+	overflow: auto;
+}
+#ContenedorItems .ItemTienda {
+	margin: 1em;
+	height: 54px;
+	background-color: #FFF;
+	border: 1px solid #666;
+	padding: 0.5em;
+}
+#ContenedorItems .ItemTienda .IconoItem {
+	float: left;
+	height: 48px;
+	width: 48px;
+	margin-right: 0.5em;
+}
+#ContenedorItems .ItemTienda .DescripcionItem {
+	float: left;
+	width: 300px;
+}
+#ContenedorItems .ItemTienda p  {
+	margin: 0px;
+	padding: 0px;
+}
+#ContenedorItems .ItemTienda .DescripcionItem p.Titulo {
+	font-weight: bold;
+}
+#ContenedorItems .ItemTienda .ControlesItem {
+	float: right;
+	width: 150px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#ContenedorPanel #Panel #ControlesPanel #ContenidoPanel #ContenedorInfoCompra {
+	font-size: 1.3em;
+	color: #069;
+	text-align: right;
+	padding: 1em;
+}
+#ContenidoPanel #mensajeLimite {
+	padding: 0em;
+	color: #900;
+	margin: 1em;
+	font-size: 1.5em;
+	text-align: center;
+	display: none;
+}

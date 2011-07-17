@@ -1,0 +1,2 @@
+order allow,deny
+Allow From 127.0.0.1 201.232.182.50

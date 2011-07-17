@@ -1,0 +1,86 @@
+div.FormApp {
+	border: 1px solid #066;
+	font-size: 0.9em;
+}
+div.FormApp a {
+	color: #069;
+	text-decoration: none;
+}
+div.FormApp p {
+	margin: 0px;
+	padding: 0px;
+}
+div.FormApp div.ClearHelper {
+	clear: both;
+}
+div.FormApp div.BarraControles {
+	background-attachment: scroll;
+	background-color: #E0E6E6;
+	background-image: url(Imagenes/FormApp/BarraControles.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding: 3px;
+}
+div.FormApp div.BarraControles.FlujoPosterior {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #066;
+}
+div.FormApp div.BarraControles.FlujoAnterior {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #066;
+}
+div.FormApp div.BarraControles div.Control {
+	display: block;
+}
+div.FormApp div.BarraControles div.Control.Izquierdo {
+	float: left;
+	margin-right: 3px;
+}
+div.FormApp div.BarraControles div.Control.Derecho {
+	float: right;
+	margin-left: 3px;
+}
+div.FormApp div.ContenedorItems {
+	background-attachment: scroll;
+	background-color: #EEE;
+	background-image: url(Imagenes/FormApp/SombraContenedorItems.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	overflow: auto;
+}
+div.FormApp div.ContenedorItems div.Item {
+	background-attachment: scroll;
+	background-image: url(Imagenes/FormApp/Item.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+div.FormApp div.ContenedorItems div.Item div.ControlItem {
+	display: block;
+}
+div.FormApp div.ContenedorItems div.Item div.ControlItem.Derecho {
+	float: right;
+	margin-left: 3px;
+}
+div.FormApp div.ContenedorItems div.Item div.ControlItem.Izquierdo {
+	float: left;
+	margin-right: 3px;
+}
+div.FormApp div.ContenedorItems div.Item div.ControlItem.Icono {
+	height: 48px;
+	width: 48px;
+	background-attachment: scroll;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+div.FormApp div.ContenedorItems div.Item div.ControlItem.Informacion p.Titulo {
+	font-weight: bold;
+}
+div.FormApp div.ContenedorItems div.Item div.ControlItem.Informacion span.Descripcion {
+	color: #333;
+}

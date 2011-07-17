@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Lamina {
+	width: 200px;
+	padding: 10px;
+	margin: 3px;
+	float: left;
+	height: 320px;
+	border: 2px solid #999;
+}
+
+.Lamina.MA {
+	background: url(Imagenes/FondoLaminaMA.jpg) no-repeat scroll left top;
+}
+
+.Lamina.N {
+	background: url(Imagenes/FondoLaminaN.jpg) no-repeat scroll left top;
+	border: 2px dashed #999;
+}
+
+.Lamina.A {
+	background: url(Imagenes/FondoLaminaA.jpg) no-repeat scroll left top;
+	border-color: #069;
+}
+
+.Lamina.E {
+	background: url(Imagenes/FondoLaminaE.jpg) no-repeat scroll left top;
+	border-color: #F90;
+}
+
+.Lamina.ME {
+	background: url(Imagenes/FondoLaminaME.jpg) no-repeat scroll left top;
+	border-color: #F90;
+}
+
+.Lamina.U {
+	background: url(Imagenes/FondoLaminaU.jpg) no-repeat scroll left top;
+	border-color: #F90;
+}
+
+.Lamina .Cabecera {
+	height: 230px;
+	overflow: hidden;
+}
+.Lamina .Cabecera .Nombre {
+	height: 23px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #036;
+	font-style: italic;
+	background-color: #FFF;
+	overflow: hidden;
+	display: block;
+}
+.Lamina.U .Cabecera .Nombre {
+	height: 23px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #FFF;
+	font-style: italic;
+	background: #000 url(Imagenes/IcoNombreU.png) no-repeat scroll right center;	
+}
+
+.Lamina .Cabecera .Imagen {
+	height: 198px;
+	border: #FFF 2px solid;
+	background-color: #000;
+}
+.Lamina .Cabecera .Imagen .BrilloLamina {
+	background: url(Imagenes/BrilloLamina.png) no-repeat scroll center top;
+	height: 198px;
+}
+.Lamina .Propiedades {
+	height: 85px;
+	overflow: hidden;
+	font-size: 0.8em;
+	background-color: #FFF;
+	margin-top: 5px;
+	display: block;
+}
+.Lamina .Propiedades .Descripcion, .Lamina .Propiedades span {
+	text-align: justify;
+	font-style: italic;
+	padding: 0.2em;
+	display: block;
+	overflow: hidden;
+}
+.Lamina .Propiedades .NombrePropiedad {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+.Lamina .Propiedades table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.Lamina .Propiedades table tr td {
+	width: 50%;
+	padding-bottom: 0.5em;
+}
+.LaminaDescripcionCompleta {
+	background: url(Imagenes/FondoLaminaDescripcion.png) no-repeat scroll center center;
+	display: none;
+	z-index: 10000;
+	padding: 42px;
+	width: 462px;
+	height: 242px;	
+}
+.LaminaDescripcionCompleta .TituloLamina {
+	font-size: 2em;
+	margin: 0 0 0.3em 0;
+}
+.LaminaDescripcionCompleta .Texto {
+	height: 180px;
+	overflow: auto;
+}
+.LaminaDescripcionCompleta .close {
+	background: url(Imagenes/BotonCerrarDescripcionLamina.png) no-repeat scroll center center;
+	position: absolute;
+	right: 42px;
+	bottom: 36px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+}
+div.LaminaIntercambio {
+	padding: 5px;
+	width: 232px;
+	margin: 2px;
+	border: 2px solid #999;
+}
+div.LaminaIntercambio.MA {
+	background-color: #CCC;
+}
+div.LaminaIntercambio.A {
+	background-color: #D9E6F2;
+	border-color: #69C;
+}
+div.LaminaIntercambio.E {
+	background-color: #AED7FF;
+	border-color: #003;
+}
+div.LaminaIntercambio.ME {
+	background-color: #FFDFBF;
+	border-color: #630;
+}
+div.LaminaIntercambio.U {
+	background-color: #FFF2BF;
+	border-color: #F90;
+}
+div.LaminaIntercambio.selected {
+	font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tabla App</title>
+<link href="../Estilos/General/FormApp.css" rel="stylesheet" type="text/css" />
+<link href="../API/Jqueryui/css/orion/jquery-ui-1.8.9.custom.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../API/Jquery/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="../API/Jqueryui/js/jquery-ui-1.8.9.custom.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("input[type=button]").button();
+});
+</script>
+</head>
+
+<body>
+<div class="FormApp">
+  <div class="BarraControles FlujoPosterior">
+    <div class="Control Izquierdo"><a href="javascript:void(0)">Vínculo</a></div>
+    <div class="Control Izquierdo"><a href="javascript:void(0)">Vínculo</a></div>
+    <div class="Control Derecho"><a href="javascript:void(0)">Vínculo derecho</a></div>
+    <div class="ClearHelper"></div>
+  </div>
+  <div class="ContenedorItems" style="height:320px">
+    <div class="Item">
+      <div class="ControlItem Izquierdo Icono"></div>
+      <div class="ControlItem Izquierdo Informacion">
+        <p class="Titulo">Título</p>
+        <p><span class="Descripcion">Descripción</span></p>
+      </div>
+      <div class="ControlItem Derecho">Configuración derecha</div>
+      <div class="ClearHelper"></div>
+    </div>
+  </div>
+  <div class="BarraControles FlujoAnterior">
+    <div class="Control Izquierdo"><input type="button" name="boton" value="Enviar" /></div>
+    <div class="Control Derecho">Estadística: 35.2 Pm/G</div>
+    <div class="ClearHelper"></div>
+  </div>
+</div>
+</body>
+</html>

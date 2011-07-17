@@ -1,0 +1,21 @@
+table.TablaAccion {
+	width: 100%;
+	border-collapse: collapse;
+}
+table.TablaAccion tr th {
+	background-color: #666;
+	color: #EEE;
+	padding: 5px;
+}
+table.TablaAccion tr td {
+	padding: 5px;
+}
+table.TablaAccion tr.ff2 {
+	background-color: #CCC;
+}
+table.TablaAccion tr td div.BotonAjax {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}

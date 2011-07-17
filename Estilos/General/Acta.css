@@ -1,0 +1,22 @@
+div#ControlActa {
+	background-color: #FFF;
+	padding: 1em;
+}
+
+#ContenedorActividadesRealizadas
+	{
+	float: left;
+	width: 49%;
+}
+
+#ContenedorAsistencia {
+	float: right;
+	width: 49%;
+}
+
+div.DialogoActividadActa {
+	background-color: #EEE;
+	margin: 3px;
+	padding: 5px;
+	border: 1px dotted #999;
+}
